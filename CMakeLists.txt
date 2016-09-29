@@ -3,7 +3,7 @@ project(Stealth)
 set(CMAKE_VERBOSE_MAKEFILE ON)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fopenmp")
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp Game.cpp Game.h)
 set(EXECUTABLE_NAME "stealth")
 add_executable(${EXECUTABLE_NAME} ${SOURCE_FILES})
 
